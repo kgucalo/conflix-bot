@@ -1,8 +1,8 @@
 import logging
 import asyncio
 from telegram.ext import ApplicationBuilder, MessageHandler, ContextTypes, filters
-from bot.handlers import handle_message
-from bot.config import TELEGRAM_BOT_TOKEN
+from mybot.handlers import handle_message
+from mybot.config import TELEGRAM_BOT_TOKEN
 
 logging.basicConfig(level=logging.INFO)
 
