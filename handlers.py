@@ -1,8 +1,8 @@
 from telegram import Update
 from telegram.ext import ContextTypes
-from bot.analyzer import analyze_text
-from bot.responder import generate_responses
-from bot.anonymizer import anonymize
+from mybot.analyzer import analyze_text
+from mybot.responder import generate_responses
+from mybot.anonymizer import anonymize
 
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     text = update.message.text
